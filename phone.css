@@ -1,0 +1,71 @@
+@media only screen and (max-width: 1077px) {
+    body {
+        background-color: #f0cfc2;
+        position: relative;
+        z-index: -1;
+        opacity: 0.89;
+    }
+
+    /* navbar design */
+
+    #navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: 4px 16px;
+        background-color: black;
+        color: white;
+        margin: 5px 6px;
+    }
+
+    /* home design  */
+
+    #home {
+        height: 390px;
+        padding: 3px 44px;
+    }
+
+    #home::before {
+        height: 390px;
+    }
+
+    #home p {
+        font-size: 13px;
+    }
+
+    .h-primary {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 20px;
+        padding: 6px 9px;
+    }
+
+    /* menu design */
+
+    #services {
+        margin: 34px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services .box {
+        margin: 10px auto;
+        width: 70%;
+    }
+
+    /* client design */
+
+    #clients {
+        flex-wrap: wrap;
+    }
+
+    #clients img {
+        width: 66px;
+    }
+}
